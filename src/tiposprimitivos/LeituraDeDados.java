@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LeituraDeDados {
     public static void main(String[] args) {
+        
         Scanner scan = new Scanner(System.in);
 
         
@@ -16,5 +17,7 @@ public class LeituraDeDados {
         double largura = scan.nextDouble();
 
         System.out.println("Você digitou: " + largura);
+
+        Scanner.close();
     }
 }
